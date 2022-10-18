@@ -26,51 +26,128 @@
     </header>
     <main>
         <section class="first_screen">
-            <h1>DENIS NOVIK</h1>
-            <img src="./img/novik.jpg" alt="my photo">
+            <div class="container">
+                <h1>Denis Novik</h1>
+                <img src="./img/novik.jpg" alt="my photo">
+            </div>
         </section>
-        <section class="about_me">
-            <div>
-                <h2>About me</h2>
-                    <p>Hi, I'm Denis – UX/UI designer from Minsk.I'm interested in design and everything connected with it.</p>
-                    <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
-                    <p>Ready to implement excellent projectswith wonderful people.</p>
+        <section class="about_me gray_bg">
+            <div class="container">
+                <h2 class="section_title">About me</h2>
+                    <div class="content">
+                        <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
+                        <p>I'm studying at courses "Web and mobile design<br>&nbsp; interfaces" in IT-Academy.</p>
+                        <p>Ready to implement excellent project<br>with wonderful people.</p>
+                    </div>
             </div>
         </section>
         <section class="skills">
-            <div>
-                <h2>Skills</h2>
+            <div class="container">
+                <h2 class="section_title">Skills</h2>
                 <p>I work in such programs as</p>
-                <div>
-                    <img src="./img/PS.png" alt="ps">
-                    <img src="./img/ai.png" alt="ai">
-                    <img src="./img/ae.png" alt="ae">
-                    <img src="./img/fligma.png" alt="fligma">
-                </div>
+                <ul class="skills_list">
+                    <li class="skills_item">
+                        <div class="skills_pic">
+                            <img src="./img/PS.png" alt="ps">
+                        </div>
+                        <div class="skills_title">
+                            Adobe<br>Photoshop
+                        </div>
+                        <div class="skills_rating">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star" class="light">
+                            <img src="./img/star.svg" alt="star" class="light">
+                            <img src="./img/star.svg" alt="star" class="light">
+                        </div>
+                    </li>
+                    <li class="skills_item">
+                        <div class="skills_pic">
+                            <img src="./img/ai.png" alt="ai">
+                        </div>
+                        <div class="skills_title">
+                            Adobe<br> Illustrator
+                        </div>
+                        <div class="skills_rating">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star" class="light">
+                            <img src="./img/star.svg" alt="star" class="light">
+                        </div>
+                    </li>
+                    <li class="skills_item">
+                        <div class="skills_pic">
+                            <img src="./img/ae.png" alt="ae">
+                        </div>
+                        <div class="skills_title">
+                            Adobe<br>After Effects
+                        </div>
+                        <div class="skills_rating">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star" >
+                            <img src="./img/star.svg" alt="star" class="light">
+                        </div>
+                    </li>
+                    <li class="skills_item">
+                        <div class="skills_pic">
+                            <img src="./img/fligma.png" alt="fligma">
+                        </div>
+                        <div class="skills_title">
+                            Fligma
+                        </div>
+                        <div class="skills_rating">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star">
+                            <img src="./img/star.svg" alt="star" >
+                        </div>
+                    </li>
+                </ul>
             </div>
         </section>
-        <section class="portfolio">
-            <h2>Portfolio</h2>
-            <div class="fashion_store">
-                <img src="./img/Fashion-Store.jpg" alt="fashion-Store">
-                <a href="">Online fashion store - Homepage</a>
-            </div>
-            <div class="braun">
-                <img src="./img/braun-landing.jpg" alt="braun">
-                <a href="">Reebok store - concept</a>
-            </div>
-            <div class="fashion_store">
-                <img src="./img/Fashion-Store.jpg" alt="fashion">
-                <a href="">Braun lending page - concept</a>
+        <section class="portfolio gray_bg">
+            <div class="container">
+                <h2 class="section_title">Portfolio</h2>
+                <div class="examples">
+                    <img src="./img/Fashion-Store.jpg" alt="fashion-Store" class="img_examples">
+                    <a href="https://google.com" class="url_examples">Online fashion store - <br>Homepage</a>
+                </div>
+                <div class="examples">
+                    <img src="./img/reebok_web.jpg" alt="reebok" class="img_examples">
+                    <a href="https://google.com" class="url_examples">Reebok store - concept</a>
+                </div>
+                <div class="examples">
+                    <img src="./img/braun-landing.jpg" alt="braun" class="img_examples">
+                    <a href="https://google.com" class="url_examples">Braun lending page - concept</a>
+                </div>
             </div>
         </section>
 
     </main>
     <footer id="footer">
-        <h2>Contacts</h2>
-        <p>Want to know more or just chat?</p>
-        <p>You are welcome</p>
-        <button>Send message</button>
+        <div class="container foot">
+        <div class="contacts">
+            <h2>Contacts</h2>
+            <p>Want to know more or just chat?<br>
+                You are welcome</p>
+            </div>
+            <div class="button_wrap">
+            <button type="button" class="btn">Send message</button>
+            </div>
+            <ul class="social">
+                <li><img src="./img/linkedin.png" alt="linkedin"></li>
+                <li><img src="./img/instagram.png" alt="instagram"></li>
+                <li><img src="./img/behance.png" alt="behance"></li>
+                <li><img src="./img/dribbble.png" alt="dribbble"></li>
+            </ul>
+            <div class="like_me">
+                <p>Like me on<br>LinkedIn, Instagram, Behance,<br>Dribble</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

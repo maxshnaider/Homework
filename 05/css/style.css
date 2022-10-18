@@ -1,3 +1,7 @@
+/*заплутався в скілсах, в відступах, все лізе криво
+і фігма в лінію не стає, розумію того що в один рядок а там в два кругом підписи,
+але не розумію як з цього вийти. ну і знаю знаю, що костильово все( */
+
 * {
     padding: 0;
     margin: 0;
@@ -9,12 +13,28 @@ html, body {
     height: 100%;
 }
 
+ul,ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     color: #070707;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 24.5px;
 }
 
 .container {
@@ -26,6 +46,7 @@ body {
 #header {
     height: 80px;
     line-height: 80px;
+    margin-bottom: 10px;
 }
 
 #header .container {
@@ -33,7 +54,6 @@ body {
 }
 
 .main_menu ul {
-    list-style: none;
     text-align: center;
 }
 
@@ -50,3 +70,157 @@ body {
 .main_menu ul li a:hover {
     color: #070707;
 }
+
+.container {
+    width: 90%;
+    max-width: 970px;
+    margin:  0 auto;
+}
+.container h1 {
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 45px;
+
+}
+
+.gray_bg {
+    background-color: #F6F6F6;
+}
+
+
+.section_title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    margin-bottom: 45px;
+}
+
+.about_me  {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content p {
+    margin-bottom: 30px;
+}
+
+.content *:last-child {
+    margin-bottom: 0;
+}
+
+.container p {
+    text-align: center;
+}
+
+.skills {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.skills_list {
+    width: 90%;
+    max-width: 970px;
+}
+
+.skills_list li {
+    display: inline-block;
+}
+
+.skills_list li:last-child {
+    margin-right: 0;
+}
+
+.skills_list li + li {
+    margin-left: 75px;
+}
+
+.skills_pic {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.skills_title {
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 60px;
+}
+
+.light {
+    opacity: 0.2;
+}
+
+.portfolio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.img_examples {
+    margin-bottom: 40px;
+}
+
+.examples {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.contacts {
+    width: 200px;
+    display: inline-block;
+}
+
+.container.foot {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contacts h2 {
+    margin-bottom: 15px;
+}
+.btn {
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    background-color: #070707;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border: 2px solid #070707;
+    cursor: pointer;
+    border-radius: 22px;
+    padding: 0 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #070707;
+}
+
+.button_wrap {
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+.social {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.like_me {
+    color: #828282;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
