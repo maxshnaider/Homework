@@ -14,7 +14,7 @@ ul,ol {
 }
 
 img {
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 a {
@@ -25,17 +25,17 @@ a:hover {
     text-decoration: none;
 }
 
+#header {
+    margin-top: 17px;
+}
+
 .container {
     max-width: 1200;
     width: 90%;
     margin: 0 auto;
 }
 
-.logo{
-    display: inline-block;
-}
-
-.menu {
+.logo {
     display: inline-block;
 }
 
@@ -45,17 +45,24 @@ a:hover {
 
 .main_menu ul li {
     display: inline-block;
-    margin: 0 19px;
+    margin-right: 20px;
 }
 
 .main_menu ul li a{
     text-decoration: none;
     color: #2F281E;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .main_menu ul li a:hover {
     color: #FF9900;
 }
+
+.menu {
+    display: inline-block;
+}
+
 
 .buttons {
     display: inline-block;
