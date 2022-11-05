@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,51 @@
     <title>Forms</title>
 </head>
 <body>
-    <p>тут буде форма як тільки почну наздоганяти всі дз</p>
     <form method="post" action="#">
-        
+        <fieldset>
+            <label for="user_name">Повне ім'я</label>
+            <input type="text" name="name" id="user_name"><br>
+            <label for="user_email">Email</label>
+            <input type="email" name="email" id="user_email"><br>
+            <label for="pass">Пароль</label>
+            <input type="email"  id="pass"><br>
+            <label for="pass2">Пароль ще раз</label>
+            <input type="email"  id="pass2"><br>
+            
+            Стать 
+            <ul>
+                <li>
+                    <label>
+                        <input type="radio" name="gender" value="male" class="gender" checked> чоловіча
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="gender" value="female" class="gender"> жіноча
+                    </label>
+                </li>
+            </ul> 
+            <label for="age">Вік</label>
+            <input type="text"  id="age">
+            <label for="kurs">Курс</label>
+            <select name="kurses[]" id="kurs">
+                <option value="front">-=Виберіть курс</option>
+                <option value="front">Front-End</option>
+                <option value="back">Back-End</option>
+                <option value="proj">Project Management</option>
+                <option value="qa">QA Manual</option>
+            </select>
+            <label for="adress">Повна адреса</label>
+            <input type="text"  id="adress" placeholder="Країна, регіон, місто/селище, вулиця"></input>
+            <br>
+            <label>
+                <input type="checkbox"> Я погоджуюсь з обробкою персональних данних
+              </label>
+              <ul>
+                <li><button type=""button>Очистити форму</button></li>
+                <li><button type=""button>Зареєструватись</button></li>
+              </ul>
+        </fieldset>
 
     </form>
 </body>
