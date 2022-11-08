@@ -30,9 +30,10 @@ a:hover {
 
 
 .second_section {
-    padding: 70px 0;
+    padding-bottom: 80px;
     background: url(../img/bg.png) center bottom/cover no-repeat;
 }
+
 .title_second {
     font-weight: 700;
     font-size: 36px;
@@ -88,6 +89,10 @@ a:hover {
     text-align: center;
 }
 
+
+#footer {
+    margin-top: 100px;
+}
 .foot_flex {
     display: flex;
     justify-content: space-between;
