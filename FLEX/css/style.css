@@ -26,7 +26,11 @@ a:hover {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
-  padding-top: 100px;
+}
+
+.second_section {
+  padding: 70px 0;
+  background: url(../img/bg.png) center bottom/cover no-repeat;
 }
 
 .title_second {
