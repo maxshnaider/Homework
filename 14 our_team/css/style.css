@@ -1,3 +1,45 @@
+@charset "UTF-8";
+/*вибачаюсь що не добавляв міксіни і т.д) невеликий обєм коду, та і впевнений що костильовий,
+того і подумав що може поки не треба тут використовувати, ну трошки зробив, розуміння наче є, дякую)*/
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/raleway-v28-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/raleway-v28-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v28-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v28-latin-regular.woff") format("woff"), url("../fonts/raleway-v28-latin-regular.ttf") format("truetype"), url("../fonts/raleway-v28-latin-regular.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* raleway-500 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/raleway-v28-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/raleway-v28-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-v28-latin-500.woff2") format("woff2"), url("../fonts/raleway-v28-latin-500.woff") format("woff"), url("../fonts/raleway-v28-latin-500.ttf") format("truetype"), url("../fonts/raleway-v28-latin-500.svg#Raleway") format("svg");
+  /* Legacy iOS */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v30-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-900.woff2") format("woff2"), url("../fonts/roboto-v30-latin-900.woff") format("woff"), url("../fonts/roboto-v30-latin-900.ttf") format("truetype"), url("../fonts/roboto-v30-latin-900.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v34-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/open-sans-v34-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v34-latin-700.woff2") format("woff2"), url("../fonts/open-sans-v34-latin-700.woff") format("woff"), url("../fonts/open-sans-v34-latin-700.ttf") format("truetype"), url("../fonts/open-sans-v34-latin-700.svg#OpenSans") format("svg");
+  /* Legacy iOS */
+}
 * {
   padding: 0;
   margin: 0;
@@ -22,22 +64,23 @@ ul, ol {
 .title_1 {
   text-align: center;
   font-family: "Raleway";
-  font-weight: 500;
+  font-size: 500;
   font-size: 18px;
   line-height: 24px;
   color: #898F8F;
+  text-align: center;
   text-transform: uppercase;
 }
 
 .title_2 {
-  margin-top: 17px;
-  text-align: center;
-  font-family: "Roboto";
   font-size: 60px;
   line-height: 66px;
+  margin-top: 17px;
+  font-family: "Roboto";
   color: #FFCC00;
-  text-transform: uppercase;
   margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -109,7 +152,7 @@ ul, ol {
 
 .front {
   font-family: "Raleway";
-  font-weight: 400;
+  font-size: 400;
   font-size: 24px;
   line-height: 36px;
   color: #666666;
@@ -127,7 +170,7 @@ ul, ol {
 
 .text {
   font-family: "Raleway";
-  font-weight: 500;
+  font-size: 500;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 18px;
@@ -162,10 +205,11 @@ ul, ol {
   font-family: "Open Sans";
   font-size: 14px;
   line-height: 14px;
-  text-transform: uppercase;
   color: #666666;
   margin: 10px 5px;
   text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .corners {

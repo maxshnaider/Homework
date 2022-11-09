@@ -1,3 +1,26 @@
+/*вибачаюсь що не добавляв міксіни і т.д) невеликий обєм коду, та і впевнений що костильовий,
+того і подумав що може поки не треба тут використовувати, ну трошки зробив, розуміння наче є, дякую)*/
+
+
+@import 'fonts';
+
+$yellow: #FFCC00;
+
+@mixin font ($font_fam,$font_w) {
+    font-family: $font_fam;
+    font-size: $font_w;
+}
+
+@mixin fs_lh($size, $line_height) {
+    font-size: $size;
+    line-height: $line_height;
+}
+
+@mixin cent_up {
+    text-align: center;
+    text-transform: uppercase;
+
+}
 * {
     padding: 0;
     margin: 0;
@@ -20,23 +43,19 @@ ul,ol {
 
 .title_1 {
     text-align: center;
-    font-family: 'Raleway';
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    @include font('Raleway', 500);
+    @include fs_lh (18px,24px);
     color: #898F8F;
-    text-transform: uppercase;
+    @include cent_up();
 }
 
 .title_2 {
+    @include fs_lh (60px,66px);
     margin-top: 17px;
-    text-align: center;
     font-family: 'Roboto';
-    font-size: 60px;
-    line-height: 66px;
-    color: #FFCC00;
-    text-transform: uppercase;
+    color: $yellow;
     margin-bottom: 30px;
+    @include cent_up();
 }
 
 .logo {
@@ -51,7 +70,7 @@ ul,ol {
     vertical-align: middle;
     width: 210px;
     height: 1px;
-    background-color: #FFCC00;
+    background-color: $yellow;
     position: relative;
 }
 .logo:before {
@@ -69,7 +88,7 @@ ul,ol {
 }
 
 .profile_section{
-    border-left: 1px solid #FFCC00;
+    border-left: 1px solid $yellow;
 }
 
 .photo {
@@ -89,8 +108,7 @@ ul,ol {
 
 .name {
     font-family: 'Roboto';
-    font-size: 36px;
-    line-height: 42.19px;
+    @include fs_lh (36px,42.19px);
     color: #666666;
     text-align: center;
 }
@@ -99,16 +117,14 @@ ul,ol {
     margin: 0 auto;
     height: 25px;
     width: 100px;
-    border-bottom: 1px solid #FFCC00;
+    border-bottom: 1px solid $yellow;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .front {
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+    @include font('Raleway', 400 );
+    @include fs_lh (24px,36px);
     color: #666666;
     margin-bottom: 30px;
 }
@@ -123,10 +139,8 @@ ul,ol {
 }
 
 .text {
-    font-family: 'Raleway';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
+    @include font('Raleway', 500 );
+    @include fs_lh (14px,24px);
     margin-bottom: 18px;
 }
 
@@ -141,28 +155,28 @@ ul,ol {
 
 .long {
     width: 20px;
-    background-color: #FFCC00;
+    background-color: $yellow;
 }
 
 .short{
-    background-color: #FFCC00;
+    background-color: $yellow;
     width: 10px;
 }
 
 .view_profile_wrap {
-    border: 1px solid #FFCC00;
+    border: 1px solid $yellow;
     margin: 0 auto;
     max-width: 118px;
 }
 
 .view_profile {
     font-family: 'Open Sans';
-    font-size: 14px;
-    line-height: 14px;
-    text-transform: uppercase;
+    @include fs_lh (14px,14px);
     color: #666666;
     margin: 10px 5px;
     text-decoration: none;
+    @include cent_up();
+   
 }
 
 .corners {
@@ -180,22 +194,22 @@ ul,ol {
   
   .top {
     top: 0;
-    border-top: 1px solid #FFCC00;
+    border-top: 1px solid $yellow;
   }
   
   .bottom {
     bottom: 0;
-    border-bottom: 1px solid #FFCC00;
+    border-bottom: 1px solid $yellow;
   }
   
   .left {
     left: 0;
-    border-left: 1px solid #FFCC00;
+    border-left: 1px solid $yellow;
   }
   
   .right {
     right: 0;
-    border-right: 1px solid #FFCC00;
+    border-right: 1px solid $yellow;
   }
 
   .btn {
