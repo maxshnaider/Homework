@@ -1,0 +1,98 @@
+@media screen and (max-width: 768px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        max-width: 768px;
+    }
+    
+    .first_screen {
+        height: 320px;
+    }
+    
+    .container h1 {
+        padding: 30px 34px 190px;
+        font-size: 36px;
+        line-height: 50px;
+        letter-spacing: 0.05em;
+    }
+    .container {
+        max-width: 700px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+   .hamburger {
+    display: inline-block;
+    padding-right: 40px;
+   }
+
+   .blog_photo img {
+    max-width: 340px;
+    max-height: 280px;
+   }
+
+   .blog_tag {
+    margin-top: 0px;
+   }
+
+   .blog_flex {
+    gap: 20px;
+  }
+
+  .res {
+    display: none;
+  }
+
+  .posts_wrap {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .posts_row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .posts_reverse {
+    flex-direction: row-reverse;
+  }
+
+  img {
+    max-width: 340px;
+  }
+
+  .most_popular {
+    flex-direction: row;
+  }
+
+  .posts_column {
+    flex-direction: column;
+  }
+
+  .info_flex {
+    display: block;
+  }
+
+  .info_right {
+    margin-top: 70px;
+   max-width: 700px;
+  }
+
+  .foot,
+  .foot_flex {
+    display: block;
+    text-align: center;
+  }
+  .contacts_title {
+    padding-top: 50px;
+  }
+
+  .contacts_icons {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
