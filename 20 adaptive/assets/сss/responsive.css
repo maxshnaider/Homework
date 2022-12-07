@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+    html, body {
+        max-width: 768px;
+    }
+
+
+    .foot_flex {
+      display: block;
+      text-align: center;
+    }
+
+    .contacts_icons {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 0px;
+    }
+
+    .foot {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contacts {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html, body {
+        max-width: 320px;
+    }
+
+
+    .foot_flex {
+      display: block;
+      text-align: center;
+    }
+
+    .contacts_icons {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 0px;
+    }
+
+    .foot {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contacts_title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .contacts {
+        margin-top: 0;
+    }
+}
