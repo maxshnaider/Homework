@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.first_screen_wrap {
+  height: 862px;
+  background: url(../img/HeaderBackground.png) center center/cover no-repeat;
+}
+.first_screen_wrap .first_screen {
+  text-align: center;
+}
+
+.logo {
+  padding-top: 295px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.31em;
+  color: #FFFFFF;
+  margin-bottom: 48px;
+}
+
+form {
+  position: relative;
+  width: 647px;
+  margin: 0 auto;
+  margin-bottom: 211px;
+}
+
+input, button {
+  border: none;
+  outline: none;
+}
+
+input {
+  width: 100%;
+  height: 60px;
+  background: white;
+  padding-left: 15px;
+}
+
+.btn_input {
+  height: 52px;
+  width: 139px;
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  background: #5373FD;
+  cursor: pointer;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+input[type=text i] {
+  padding-left: 36px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #999999;
+}
+
+.icon-search_first {
+  font-size: 16px;
+  color: white;
+  margin-right: 12px;
+}
+
+.scroll_down {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+  margin-bottom: 4px;
+}
+
+.icon-chevron-down {
+  font-size: 14px;
+  color: white;
+}
+
+#header {
+  max-height: 84px;
+  background-color: #5373FD;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.logo_head {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.main_menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.main_menu ul li {
+  margin-right: 40px;
+}
+.main_menu ul li:last-child {
+  margin-right: 0;
+}
+.main_menu ul a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.why_wrap {
+  background: url(../img/WhyBackground.png) center center/cover no-repeat;
+}
+.why_wrap .why {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why_left {
+  padding: 190px 136px 196px 0;
+}
+
+.why_right {
+  padding: 124px 112px 124px 0;
+}
+
+.why_left h1 {
+  margin-bottom: 24px;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.why_text {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.why_text p:first-child {
+  margin-bottom: 28px;
+}
+
+.img_right_first {
+  margin-right: 74px;
+}
+
+.img_right_second {
+  margin-top: 12px;
+  margin-left: 74px;
+}
+
+.btn {
+  width: 213px;
+  height: 60px;
+  background-color: #5373FD;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.steps_wrap {
+  background-color: #333333;
+}
+
+.steps_flex {
+  padding-top: 123px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-search-steps {
+  color: #5373FD;
+}
+
+.icon-check-circle {
+  color: #FF6363;
+}
+
+.icon-thumbs-up {
+  color: #00A2FF;
+}
+
+.icon_steps {
+  font-size: 64px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.icon_text {
+  margin-top: 20px;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.book_now_first {
+  background: url(../img/render-1477041_1280.png) center center/cover no-repeat;
+}
+
+.spain_wrap {
+  padding-top: 220px;
+  padding-bottom: 120px;
+  max-width: 648px;
+}
+
+.spain {
+  padding: 44px 32px 44px 32px;
+  background-color: rgba(35, 35, 35, 0.9);
+}
+.spain div {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.spain h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.spain p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.book_now_second {
+  background: url(../img/spain-1859434_1280.png) center center/cover no-repeat;
+}
+
+.spain_wrap_second {
+  padding: 220px 1px 120px 672px;
+}
+
+.what_say {
+  background: url(../img/BG.png) center center/cover no-repeat;
+}
+
+.what_say_wrap {
+  text-align: center;
+  padding-top: 120px;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+.review_photo {
+  display: flex;
+  padding-bottom: 180px;
+}
+
+.review {
+  padding: 48px 60px 48px 60px;
+  background: #333333;
+  max-height: 275px;
+}
+.review .name {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.review .icon-quote-left {
+  font-size: 20px;
+  color: #5373FD;
+}
+.review span:last-child {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+#footer {
+  background-color: #000000;
+}
+
+.foot {
+  text-align: center;
+}
+.foot .logo_foot {
+  padding-top: 80px;
+  margin-bottom: 8px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.foot .tagline_foot {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.contacts_foot {
+  display: inline-flex;
+  font-size: 32px;
+  padding-bottom: 82px;
+}
+.contacts_foot li {
+  margin-right: 32px;
+}
+.contacts_foot li:last-child {
+  margin-right: 0;
+}
+.contacts_foot a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.contacts_foot a:hover {
+  color: #5373FD;
+}

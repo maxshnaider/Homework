@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #000000;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 54px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left_side {
+    display: flex;
+    gap: 50px;
+}
+
+.lang {
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    line-height: 22px;
+}
+
+.who_using {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    line-height: 22px;
+}
+
+.aside_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    max-width: 385px;
+}
+
+.aside_list {
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
