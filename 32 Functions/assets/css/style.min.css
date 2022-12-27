@@ -1,0 +1,1 @@
+.container{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{max-width:500px}.column{margin-bottom:10px}output{padding-top:20px;text-align:center;font-size:26px}
