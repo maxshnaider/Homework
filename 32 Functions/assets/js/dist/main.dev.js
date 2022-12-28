@@ -117,22 +117,5 @@ function getPerfect(a, b) {
 function normal_2() {
   var num1 = getNumberById('task8_num1');
   var num2 = getNumberById('task8_num2');
-
-  function getPerfect(a, b) {
-    var result = [];
-
-    for (var i = a; i < b; i++) {
-      sum = 0;
-
-      for (var n = 1; n <= i / 2; n++) {
-        if (i % n === 0) sum += n;
-      }
-
-      if (i === sum) result.push(i);
-    }
-
-    return result;
-  }
-
   setOutput('result8', "".concat(getPerfect(num1, num2), " \u0434\u043E\u0441\u043A\u043E\u043D\u0430\u043B\u0435 \u0447\u0438\u0441\u043B\u043E"));
 }

@@ -117,18 +117,6 @@ function normal_1() {
     function normal_2() {
     const num1 = getNumberById('task8_num1');
     const num2 = getNumberById('task8_num2');
-
-    function getPerfect(a, b) {
-        let result = [];
-        for (let i = a; i < b; i++) {
-          sum = 0;
-          for (let n = 1; n <= i/2; n++) {
-            if (i % n === 0) sum += n;
-          }
-          if (i === sum) result.push(i);
-        }
-        return result;
-      }
        
       setOutput('result8', `${getPerfect(num1, num2)} досконале число`)
     
